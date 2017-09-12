@@ -1,21 +1,24 @@
 <keymap version="1" name="Ross" parent="Visual Studio OSX">
   <action id="$Copy">
     <keyboard-shortcut first-keystroke="meta c" />
-    <keyboard-shortcut first-keystroke="meta insert" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="c" />
+    <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
   <action id="$Cut">
     <keyboard-shortcut first-keystroke="meta x" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="x" />
+    <keyboard-shortcut first-keystroke="ctrl x" />
   </action>
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="meta v" />
     <keyboard-shortcut first-keystroke="shift insert" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="v" />
+    <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="meta y" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="y" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="$SelectAll">
     <keyboard-shortcut first-keystroke="meta a" />
@@ -24,6 +27,7 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="meta z" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="z" />
+    <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="ctrl space" />
@@ -35,21 +39,26 @@
   <action id="DecrementWindowHeight" />
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="escape" second-keystroke="c" />
+    <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
   <action id="Editor Cut">
     <keyboard-shortcut first-keystroke="escape" second-keystroke="x" />
+    <keyboard-shortcut first-keystroke="ctrl x" />
   </action>
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="escape" second-keystroke="v" />
+    <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="escape" second-keystroke="y" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="Editor SelectAll">
     <keyboard-shortcut first-keystroke="escape" second-keystroke="a" />
   </action>
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="escape" second-keystroke="z" />
+    <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
   <action id="EditorChooseLookupItemReplace" />
   <action id="EditorCodeBlockEnd">
@@ -113,9 +122,5 @@
     <keyboard-shortcut first-keystroke="meta comma" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="comma" />
   </action>
-  <action id="Switcher">
-    <keyboard-shortcut first-keystroke="ctrl tab" />
-    <keyboard-shortcut first-keystroke="shift ctrl tab" />
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl b" />
-  </action>
+  <action id="Vcs.QuickListPopupAction" />
 </keymap>
