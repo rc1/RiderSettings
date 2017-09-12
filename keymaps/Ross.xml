@@ -1,15 +1,56 @@
 <keymap version="1" name="Ross" parent="Visual Studio OSX">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="meta c" />
+    <keyboard-shortcut first-keystroke="meta insert" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="c" />
+  </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="meta x" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="x" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="meta v" />
+    <keyboard-shortcut first-keystroke="shift insert" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="v" />
+  </action>
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="meta y" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="y" />
+  </action>
+  <action id="$SelectAll">
+    <keyboard-shortcut first-keystroke="meta a" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="a" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="meta z" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="z" />
+  </action>
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="ctrl space" />
   </action>
   <action id="CommentByLineComment">
-    <keyboard-shortcut first-keystroke="meta alt slash" />
-    <keyboard-shortcut first-keystroke="meta alt divide" />
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="c" />
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta c" />
     <keyboard-shortcut first-keystroke="meta slash" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="slash" />
   </action>
   <action id="DecrementWindowHeight" />
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="c" />
+  </action>
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="x" />
+  </action>
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="v" />
+  </action>
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="y" />
+  </action>
+  <action id="Editor SelectAll">
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="a" />
+  </action>
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="z" />
+  </action>
   <action id="EditorChooseLookupItemReplace" />
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="meta asterisk" />
@@ -19,9 +60,12 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
-  <action id="EditorIndentSelection">
-    <keyboard-shortcut first-keystroke="meta close_bracket" />
-    <keyboard-shortcut first-keystroke="tab" />
+  <action id="EditorEscape">
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="g" />
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
+  <action id="EditorIndentLineOrSelection">
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="close_bracket" />
   </action>
   <action id="EditorStartNewLine">
     <keyboard-shortcut first-keystroke="ctrl j" />
@@ -30,6 +74,7 @@
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="shift tab" />
     <keyboard-shortcut first-keystroke="meta open_bracket" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="open_bracket" />
   </action>
   <action id="ExpandLiveTemplateByTab" />
   <action id="Images.Editor.ActualSize">
@@ -51,18 +96,23 @@
     <keyboard-shortcut first-keystroke="meta pause" />
   </action>
   <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="meta alt enter" />
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="f" />
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta f" />
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="d" />
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta d" />
     <keyboard-shortcut first-keystroke="shift meta p" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="shift p" />
   </action>
   <action id="ResetColumnsWidth" />
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowLeft" />
   <action id="ResizeToolWindowRight" />
   <action id="ResizeToolWindowUp" />
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="meta t" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="t" />
+  </action>
+  <action id="SelectNextOccurrence" />
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="meta comma" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="comma" />
+  </action>
   <action id="Switcher">
     <keyboard-shortcut first-keystroke="ctrl tab" />
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
