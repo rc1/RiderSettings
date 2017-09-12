@@ -113,6 +113,10 @@
   <action id="ResizeToolWindowLeft" />
   <action id="ResizeToolWindowRight" />
   <action id="ResizeToolWindowUp" />
+  <action id="SaveAll">
+    <keyboard-shortcut first-keystroke="shift meta s" />
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="meta t" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="t" />
