@@ -1,0 +1,71 @@
+<keymap version="1" name="Ross" parent="Visual Studio OSX">
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="ctrl space" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="meta alt slash" />
+    <keyboard-shortcut first-keystroke="meta alt divide" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="c" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta c" />
+    <keyboard-shortcut first-keystroke="meta slash" />
+  </action>
+  <action id="DecrementWindowHeight" />
+  <action id="EditorChooseLookupItemReplace" />
+  <action id="EditorCodeBlockEnd">
+    <keyboard-shortcut first-keystroke="meta asterisk" />
+  </action>
+  <action id="EditorCodeBlockStart" />
+  <action id="EditorCutLineEnd" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
+  <action id="EditorIndentSelection">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
+  <action id="EditorStartNewLine">
+    <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
+  <action id="EditorTab" />
+  <action id="EditorUnindentSelection">
+    <keyboard-shortcut first-keystroke="shift tab" />
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+  </action>
+  <action id="ExpandLiveTemplateByTab" />
+  <action id="Images.Editor.ActualSize">
+    <keyboard-shortcut first-keystroke="meta divide" />
+  </action>
+  <action id="IncrementWindowHeight" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift meta up" />
+  </action>
+  <action id="NextParameter" />
+  <action id="NextTemplateParameter" />
+  <action id="NextTemplateVariable">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
+  <action id="Pause">
+    <keyboard-shortcut first-keystroke="meta pause" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt enter" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="f" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta f" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="d" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta d" />
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
+  <action id="ResetColumnsWidth" />
+  <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowLeft" />
+  <action id="ResizeToolWindowRight" />
+  <action id="ResizeToolWindowUp" />
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl b" />
+  </action>
+</keymap>

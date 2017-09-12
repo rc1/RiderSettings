@@ -1,0 +1,6 @@
+# Ignore Everything
+/*
+!.gitignore
+!/keymaps/
+!/resharper-host/
+/resharper-host/*/
