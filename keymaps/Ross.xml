@@ -22,6 +22,7 @@
     <keyboard-shortcut first-keystroke="meta y" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="y" />
     <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="alt y" />
   </action>
   <action id="$SelectAll">
     <keyboard-shortcut first-keystroke="meta a" />
@@ -32,6 +33,7 @@
     <keyboard-shortcut first-keystroke="meta z" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="z" />
     <keyboard-shortcut first-keystroke="ctrl z" />
+    <keyboard-shortcut first-keystroke="alt z" />
   </action>
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="ctrl space" />
@@ -39,6 +41,7 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta slash" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="slash" />
+    <keyboard-shortcut first-keystroke="alt slash" />
   </action>
   <action id="DecrementWindowHeight" />
   <action id="Editor Copy">
@@ -59,6 +62,7 @@
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="escape" second-keystroke="y" />
     <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="alt y" />
   </action>
   <action id="Editor SelectAll">
     <keyboard-shortcut first-keystroke="escape" second-keystroke="a" />
@@ -67,6 +71,7 @@
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="escape" second-keystroke="z" />
     <keyboard-shortcut first-keystroke="ctrl z" />
+    <keyboard-shortcut first-keystroke="alt z" />
   </action>
   <action id="EditorChooseLookupItemReplace" />
   <action id="EditorCodeBlockEnd">
@@ -96,6 +101,7 @@
     <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
   <action id="ExpandLiveTemplateByTab" />
+  <action id="HippieCompletion" />
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="meta divide" />
   </action>
