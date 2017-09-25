@@ -3,17 +3,20 @@
     <keyboard-shortcut first-keystroke="meta c" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="c" />
     <keyboard-shortcut first-keystroke="ctrl c" />
+    <keyboard-shortcut first-keystroke="alt c" />
   </action>
   <action id="$Cut">
     <keyboard-shortcut first-keystroke="meta x" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="x" />
     <keyboard-shortcut first-keystroke="ctrl x" />
+    <keyboard-shortcut first-keystroke="alt x" />
   </action>
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="meta v" />
     <keyboard-shortcut first-keystroke="shift insert" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="v" />
     <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="alt v" />
   </action>
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="meta y" />
@@ -23,7 +26,7 @@
   <action id="$SelectAll">
     <keyboard-shortcut first-keystroke="meta a" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="a" />
-    <keyboard-shortcut first-keystroke="ctrl a" />
+    <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="meta z" />
@@ -41,14 +44,17 @@
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="escape" second-keystroke="c" />
     <keyboard-shortcut first-keystroke="ctrl c" />
+    <keyboard-shortcut first-keystroke="alt c" />
   </action>
   <action id="Editor Cut">
     <keyboard-shortcut first-keystroke="escape" second-keystroke="x" />
     <keyboard-shortcut first-keystroke="ctrl x" />
+    <keyboard-shortcut first-keystroke="alt x" />
   </action>
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="escape" second-keystroke="v" />
     <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="alt v" />
   </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="escape" second-keystroke="y" />
@@ -56,7 +62,7 @@
   </action>
   <action id="Editor SelectAll">
     <keyboard-shortcut first-keystroke="escape" second-keystroke="a" />
-    <keyboard-shortcut first-keystroke="ctrl a" />
+    <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="escape" second-keystroke="z" />
@@ -77,10 +83,7 @@
   </action>
   <action id="EditorIndentLineOrSelection">
     <keyboard-shortcut first-keystroke="escape" second-keystroke="close_bracket" />
-  </action>
-  <action id="EditorLineStart">
-    <keyboard-shortcut first-keystroke="home" />
-    <keyboard-shortcut first-keystroke="meta left" />
+    <keyboard-shortcut first-keystroke="alt close_bracket" />
   </action>
   <action id="EditorStartNewLine">
     <keyboard-shortcut first-keystroke="ctrl j" />
@@ -90,6 +93,7 @@
     <keyboard-shortcut first-keystroke="shift tab" />
     <keyboard-shortcut first-keystroke="meta open_bracket" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="open_bracket" />
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
   <action id="ExpandLiveTemplateByTab" />
   <action id="Images.Editor.ActualSize">
@@ -122,6 +126,7 @@
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="shift meta s" />
     <keyboard-shortcut first-keystroke="ctrl s" />
+    <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="meta t" />
